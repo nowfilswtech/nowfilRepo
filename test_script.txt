@@ -1,0 +1,14 @@
+*** Settings ***
+Documentation     A test suite with a single test for Robotcorder - Chrome Web Store
+...               Created by hats' Robotcorder
+Library           Selenium2Library    timeout=10
+
+*** Variables ***
+${BROWSER}    chrome
+${SLEEP}    3
+
+*** Test Cases ***
+Robotcorder - Chrome Web Store test
+    Open Browser    https://chromewebstore.google.com/detail/robotcorder/ifiilbfgcemdapeibjfohnfpfmfblmpd?hl=en-GB&utm_source=ext_sidebar    ${BROWSER}
+
+    Close Browser
