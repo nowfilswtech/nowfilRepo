@@ -9,4 +9,4 @@ Open Amazon
 Close Browser
     [Tags]
     Close Browser
-i
+import module 
