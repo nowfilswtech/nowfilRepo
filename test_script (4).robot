@@ -1,4 +1,4 @@
-
+im
 *** Settings ***
 Documentation     A test suite with a single test for New Tab
 ...               Created by hats' Robotcorder
