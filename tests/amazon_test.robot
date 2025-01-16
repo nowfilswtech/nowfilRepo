@@ -1,5 +1,5 @@
 *** Settings ***
-Resource    /app/nowfilrepocommon.robot
+Resource    /app/nowfilrepo/nowfilrepo/resources
 Resource    /app/nowfilreposettings.robot
 *** Test Cases ***
 Test Amazon Search
