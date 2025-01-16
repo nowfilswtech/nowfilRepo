@@ -1,6 +1,6 @@
 *** Settings ***
 Resource    /app/nowfilrepo/nowfilrepo/resources
-Resource    /app/nowfilreposettings.robot
+Resource    /app/nowfilrepo/nowfilrepo/keywords
 *** Test Cases ***
 Test Amazon Search
     Open Amazon
