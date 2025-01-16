@@ -1,6 +1,6 @@
 *** Settings ***
 Library    SeleniumLibrary
-Resource    /app/nowfilreposettings.robot
+Resource    /app/nowfilrepo/nowfilrepo/resources
 *** Keywords ***
 Open Amazon
     [Tags]    High
