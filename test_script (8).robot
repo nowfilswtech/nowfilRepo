@@ -21,3 +21,4 @@ New Tab Test
     Click Element    xpath=//h3[contains(@class,"LC20lb")]    # Click on the first search result
     Sleep    ${SLEEP}
     Close Browser
+
