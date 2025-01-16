@@ -1,6 +1,6 @@
 *** Settings ***
 Library    SeleniumLibrary
-Resource    /home/sgupta61/Desktop/Robot_Smart_Fit (1)/Robot_Smart_Fit/resources/settings.robot
+Resource    ../resources/settings.robot
 *** Keywords ***
 Open Amazon
     [Tags]    High
