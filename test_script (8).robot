@@ -14,7 +14,7 @@ New Tab Test
     Call Method    ${options}    add_argument    --no-sandbox
     Call Method    ${options}    add_argument    --disable-dev-shm-usage
     Call Method    ${options}    add_argument    --disable-gpu
-    ${service}=    Evaluate    sys.modules['selenium.webdriver.chrome.service'].Service(${CHROMEDRIVER_PATH})    sys, selenium.webdriver.chrome.service
+    ${service}=    Evaluate    sys.modules['selenium.webdriver.chrome.service'].Service("${CHROMEDRIVER_PATH}")    sys, selenium.webdriver.chrome.service
     Open Browser    https://www.google.com    ${BROWSER}    options=${options}    service=${service}
     Input Text    name=q    Robot Framework    chatgpt
     Press Keys    name=q    RETURN             # Simulate pressing Enter
