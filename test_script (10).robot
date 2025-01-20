@@ -3,9 +3,9 @@ Documentation     A test suite with a single test for New Tab
 ...               Created by hats' Robotcorder
 Library           SeleniumLibrary    timeout=10
 
-# *** Variables ***
-# ${BROWSER}    chrome
-# ${SLEEP}      3
+*** Variables ***
+${BROWSER}    chrome
+${SLEEP}      3
 
 *** Test Cases ***
 New Tab Test
