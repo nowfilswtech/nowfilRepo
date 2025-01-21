@@ -13,3 +13,4 @@ New Tab Test
     Open Browser    chrome://newtab/    ${BROWSER}
     Sleep    ${SLEEP}
     Close Browser
+h
