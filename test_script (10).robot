@@ -7,10 +7,11 @@ Library           SeleniumLibrary    timeout=10
 ${BROWSER}    chrome
 ${SLEEP}      3
 
-# *** Test Cases ***
-# New Tab Test
-#     [Documentation]   Opens a new browser tab and closes it
-#     Open Browser    chrome://newtab/    ${BROWSER}
-#     Sleep    ${SLEEP}
-#     Close Browser
-# hhhfffgf fgfh    frgf
+*** Test Cases ***
+New Tab Test
+    [Documentation]   Opens a new browser tab and closes it
+    Open Browser    chrome://newtab/    ${BROWSER}
+    Sleep    ${SLEEP}
+    Close Browser
+hhhfffgf fgfh    frgf
+
