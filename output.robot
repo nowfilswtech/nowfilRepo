@@ -5,6 +5,7 @@ Library           SeleniumLibrary    timeout=10
 
 *** Variables ***
 ${BROWSER}    chrome
+
 ${SLEEP}      3
 
 *** Test Cases ***
