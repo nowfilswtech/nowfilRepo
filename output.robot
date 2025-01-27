@@ -4,9 +4,8 @@ Documentation     A test suite with a single test for New Tab
 Library           SeleniumLibrary    timeout=10
 
 *** Variables ***
+
 ${BROWSER}    chrome
-
-
 ${SLEEP}      3
 
 *** Test Cases ***
