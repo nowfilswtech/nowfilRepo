@@ -12,4 +12,4 @@ New Tab Test
     [Documentation]   Opens a new browser tab and closes it
     Open Browser    chrome://newtab/    ${BROWSER}
     Sleep    ${SLEEP} 
-    Close Browser
+    Close Browser 
